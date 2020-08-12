@@ -20,7 +20,7 @@ $(function () {
         let formattedMsg;
         if (msgInputField.val()) {
             if (msgInputField.val().includes(' ')) {
-                addMsgCallback('az sum ceko i qm pi6ki');
+                addMsgCallback('tonkata > ceko');
                 return;
             }
             if ((formattedMsg = msgInputField.val().trim()) === '') {
