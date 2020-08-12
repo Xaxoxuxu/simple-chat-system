@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>tup chat</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="index.js"></script>
+
+<body>
+<ul id="messages"></ul>
+<form class="form-inline" action="">
+    <label for="nickname-input"></label>
+    <input id="nickname-input" placeholder="Nickname" autocomplete="off" required>
+    <label for="message-input"></label>
+    <input id="message-input" placeholder="message..." autocomplete="off">
+    <button type="submit">Send</button>
+</form>
+</body>
+</html>
